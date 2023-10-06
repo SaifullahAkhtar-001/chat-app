@@ -1,14 +1,12 @@
 import React from "react";
-import Contacts from "./contacts";
+import Contacts from "./Contacts";
 import addButton from "../assets/img/Button.png"
+import MassageInput from "./Massageinput";
 
-function Chatindex_section() {
+function ChatIndexSection() {
   return (
     <div className="flex flex-col gap-8 xl:w-[35%] w-full h-full rounded-[4rem] border bg-white bg-opacity-50 p-8">
-      <div className="flex h-16 rounded-[1.5rem] shadow-lg hover:shadow-2xl cursor-pointer hover:bg-[#e9f8ff]">
-        <img src={addButton} alt="" className="w-16" />
-        <dir className="text-xl font-light">Add Contact</dir>
-      </div>
+      <MassageInput placeHolder="Search Here"/>
       <p className="font-semibold text-xl pl-2">Chat</p>
       <div className="flex flex-col gap-4 h-full rounded-[2.5rem] shadow-2xl p-4 bg-[#e9f8ff] bg-opacity-75 overflow-y-auto">
         <Contacts />
@@ -19,4 +17,4 @@ function Chatindex_section() {
   );
 }
 
-export default Chatindex_section;
+export default ChatIndexSection;

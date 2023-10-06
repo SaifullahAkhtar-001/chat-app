@@ -1,7 +1,7 @@
 import React from "react";
 import profileAvatar from "../assets/img/avatar.png"
 
-function Chat_header() {
+function ChatHeader() {
   return (
     <div className="flex items-end gap-6 ">
       <img
@@ -14,4 +14,4 @@ function Chat_header() {
   );
 }
 
-export default Chat_header;
+export default ChatHeader;

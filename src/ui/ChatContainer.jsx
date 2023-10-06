@@ -1,13 +1,13 @@
 import React from "react";
 
-function Chat_container(props) {
+function ChatContainer(props) {
   return (
     <div className="flex-auto rounded-[4rem] h-full p-8">
       <div className="flex flex-col gap-4">
-        {props.childrens}
+        {props.children}
       </div>
     </div>
   );
 }
 
-export default Chat_container;
+export default ChatContainer;

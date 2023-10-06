@@ -1,7 +1,7 @@
 import React from "react";
 import bg from "../assets/img/OIG.jpg";
 
-function Main_container(props) {
+function MainContainer(props) {
   return (
     <div
       className="h-[85vh] w-[75vw] rounded-[4.5rem] p-10 shadow-orange-300 shadow-2xl"
@@ -19,4 +19,4 @@ function Main_container(props) {
   );
 }
 
-export default Main_container;
+export default MainContainer;

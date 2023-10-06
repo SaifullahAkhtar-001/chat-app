@@ -1,7 +1,7 @@
 import React from "react";
 import addButton from "../assets/img/Button.png"
 
-function Massageinput() {
+function MassageInput(props) {
   return (
     <div className="h-16 rounded-full w-full bg-white flex ">
       <button>
@@ -11,11 +11,11 @@ function Massageinput() {
         type="text"
         name=""
         id=""
-        placeholder="Type here!"
-        className="bg-transparent outline-none p-4"
+        placeholder={props.placeHolder}
+        className="bg-transparent outline-none p-4 w-full"
       />
     </div>
   );
 }
 
-export default Massageinput;
+export default MassageInput;
